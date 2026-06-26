@@ -506,15 +506,4 @@ elif page == "ℹ️ Tentang Model":
     st.json(show_params)
     st.markdown("</div>", unsafe_allow_html=True)
 
-    st.markdown('<div class="glass-card">', unsafe_allow_html=True)
-    st.markdown("##### 📦 Struktur Project")
-    st.code("""
-personality_app/
-├── app.py                     # Aplikasi utama Streamlit
-├── train_model.py             # Script training & menyimpan model
-├── personality_model.pkl      # Model Random Forest terlatih
-├── personality_dataset.csv    # Dataset
-├── requirements.txt           # Daftar dependency
-└── README.md                  # Petunjuk instalasi & deployment
-    """, language="text")
-    st.markdown("</div>", unsafe_allow_html=True)
+    
