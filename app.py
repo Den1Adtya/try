@@ -322,7 +322,8 @@ if page == "🔮 Prediksi":
             else:
                 st.markdown(f"""
                 <div class="result-introvert">
-                    <div class="result-emoji">👉😨👈</div>
+                    <div class="result-emoji">😨</div>
+                    <div class="result-emoji">👉     👈</div>
                     <div class="result-label">INTROVERT</div>
                     <div class="result-desc">Anda cenderung tenang, reflektif, dan mengisi ulang energi lewat waktu sendiri!</div>
                 </div>
