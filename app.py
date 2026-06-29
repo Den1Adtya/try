@@ -240,7 +240,6 @@ if page == "🔮 Prediksi":
     col_form, col_result = st.columns([1.3, 1])
 
     with col_form:
-        st.markdown('<div class="glass-card">', unsafe_allow_html=True)
         st.markdown("### 📝 Masukkan Data Kebiasaan Sosial")
 
         c1, c2 = st.columns(2)
